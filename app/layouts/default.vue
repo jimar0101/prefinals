@@ -4,7 +4,7 @@
     <!-- Navigation Drawer -->
     <v-navigation-drawer
       v-model="drawer"
-      color="black"
+      color="blue"
       temporary
     >
       <v-list>
@@ -42,7 +42,7 @@
     </v-navigation-drawer>
 
     <!-- App Bar -->
-    <v-app-bar color="black" elevation="1">
+    <v-app-bar color="blue" elevation="1">
       <template v-slot:prepend>
         <v-app-bar-nav-icon
           class="hover-icon"
@@ -50,7 +50,7 @@
         ></v-app-bar-nav-icon>
       </template>
 
-      <v-app-bar-title>SCAN ME</v-app-bar-title>
+      <v-app-bar-title>API Set Up</v-app-bar-title>
     </v-app-bar>
 
     <!-- Main Content -->
